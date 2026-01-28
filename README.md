@@ -22,11 +22,16 @@ The trained model is deployed using **Streamlit** to provide a simple and intera
 
 Traffic_Sign_App/
 │
+├── images
+    ├── accuracy_vs_epoches.png
+    ├── loss_vs_epoches.png
+    ├── confusion_matrix.png    
+├── traffic_dataset     # dataset
 ├── app.py      # Streamlit application
 ├── model.py    # CNN model definition
 ├── traffic_sign_model.pth     # Trained model weights
 ├── class_id_to_name.json      # Correct class-to-label mapping
-├── labels.csv  # Class ID to traffic sign name
+├── Traffic_RecognitionCNN.ipynb   #notebook
 ├── README.md   # Project documentation
 
 ```
